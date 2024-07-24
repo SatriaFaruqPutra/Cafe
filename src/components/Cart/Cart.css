@@ -1,0 +1,50 @@
+.cart {
+    background: var(--container-color);
+    height: 50rem;
+    padding: 3rem;
+    position: relative;
+    border-radius: var(--radius);
+}
+
+.cart__title {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-size: var(--h2-font-size);
+}
+
+.shape__two,
+.shape__three {
+    position: absolute;
+    width: 180px;
+}
+
+.shape__two {
+    right: 1.25rem;
+    top: 2.5rem;
+}
+
+.shape__three {
+    left: 1.25rem;
+    bottom: 2.5rem;
+} 
+
+.reservasi__btn {
+    justify-self: center;
+}
+
+.cart__table {
+    border: 1px solid var(--first-color);
+    width: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.th,
+.td {
+    padding: 1rem
+}
+
+

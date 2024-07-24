@@ -1,0 +1,39 @@
+.about {
+    padding-bottom: 0;
+}
+
+.about__grid {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 3rem;
+    padding-block: 5rem;
+    margin-top: 5rem;
+}
+
+.about__img-wrapper {
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.about__img-wrapper::before {
+    content: '';
+    position: absolute;
+    bottom: -1.125rem;
+    left: 0;
+    background-color: var(--first-color);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.about__details {
+    margin-block: 1.25rem 2.25rem;
+    gap: 0.625rem;
+}
+
+.about__details-descrption {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+
+}
